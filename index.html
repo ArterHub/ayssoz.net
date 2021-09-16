@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FURJIN OFFICIAL</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="icon.ico">
+  </head>
+    <body>
+      <center>
+      <img id="ht1" src="https://cdn.discordapp.com/attachments/832539399429292042/884330469980778546/fjowel.png" alt="welcome">
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+<br>
+<br>
+<br>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="https://cdn.discordapp.com/attachments/832539399429292042/885375896909910036/SLITE.png" style="width:95%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://cdn.discordapp.com/attachments/832539399429292042/885375897320955945/SLITE1.png" style="width:95%">
+  </div>
+  <br>
+  <br>
+  <br>
+  <a href=" https://discord.gg/fBg5vr3xgx"><img style="width:45%" src="https://cdn.discordapp.com/attachments/832539399429292042/886863275223035904/but02.png" /></a>
+
+        <script type="text/javascript">
+        var slideIndex = 0;
+        showSlides();
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 6000); // Change image every 2 seconds
+        }
+        </script>
+    </body>
+</html>
